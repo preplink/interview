@@ -1,38 +1,89 @@
-# Take home Assessment
 
-## 🎯 What We Want You To Do
-Build a simple program that can:
-1. Log in to a job website (pick one below)
-2. Search for jobs
-3. Try to apply to some jobs
 
-Don't worry if it doesn't work perfectly! We care about how you solve problems.
+⚙️ Take-Home Assignment – Python Automation Engineer
 
-## 🌟 Pick One Website
-- [ ] Greenhouse  
-- [ ] Indeed
-- [ ] LinkedIn
-- [ ] ZipRecruiter
+🎯 Objective
 
-## ⏰ Time You Have
-48 hours after you start
+Build a modular web scraper using Playwright (or Selenium) that extracts product data from a public e-commerce site and simulates human-like browsing behavior. This exercise demonstrates your skills in automation, anti-detection, and scalable code design — not for production use.
 
-## ✅ What You Need To Do
 
-### Must Haves:
-- [ ] Don't put passwords in the code (use environment variables)
-- [ ] Take screenshots as you go (working or not)
-- [ ] Try to apply to at least 1 job
-- [ ] Write about what worked and what didn't
 
-### Nice To Haves:
-- [ ] Error handling
-- [ ] Simple instructions to run your code
-- [ ] Notes about problems you faced
+🧩 Task
 
-## 📦 What To Send Us
-1. Your code files
-2. A folder called "screenshots" with pictures of:
-   - Logging in
-   - Searching jobs
-   - Trying to apply
+Create a Python CLI tool that:
+
+Navigates a public product listing site
+Suggested: https://books.toscrape.com
+Scrapes the following per product:
+
+Title
+Price
+Star rating
+Product detail URL
+Simulates human behavior:
+
+Randomized wait times
+User-agent rotation
+Headless mode with optional toggle
+Stores output in:
+
+JSON or CSV format
+Bonus: SQLite DB with SQLAlchemy
+Handles edge cases:
+
+Pagination (at least 3 pages)
+Empty/invalid pages gracefully
+Reusable session/cookies
+
+
+
+✅ Bonus Points (Not Mandatory)
+
+CLI args: --max-pages, --output-format, --headless
+Async scraping using asyncio + Playwright
+Dockerfile with working CMD
+Tests (e.g., with pytest)
+Optional integration with ProxyMesh or other rotating proxy services
+
+
+
+💡 Expectations
+
+Area
+
+Expectation
+
+Code Quality
+
+Modular, clean, and readable
+
+Structure
+
+Separation of logic, config, and CLI
+
+Anti-Bot Tactics
+
+Realistic human simulation (no brute speed)
+
+Documentation
+
+README.md with setup & usage
+
+
+
+🗂 Submission Format
+
+GitHub repo or ZIP file
+Include:
+
+scraper/ directory with Python source
+requirements.txt or pyproject.toml
+README.md
+Sample output file (output.json or .csv)
+
+
+
+🕐 Time Estimate
+
+Designed to take ~4–6 hours depending on bonus features.
+
