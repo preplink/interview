@@ -1,59 +1,41 @@
-# Job Platform Automation Challenge
+# Take home Assessment
 
-## Challenge Overview
-Develop an automated solution to interact with one major job board platform. It scrape jobs from  any of the board you select below and also apply to at least 5 jobs on that board. This exercise evaluates your technical approach, problem-solving methodology, and documentation skills - not the ultimate success/failure of the implementation.
+## 🎯 What We Want You To Do
+Build a simple program that can:
+1. Log in to a job website (pick one below)
+2. Search for jobs
+3. Try to apply to some jobs
 
-## Platform Options
-Choose **one** platform to target:
-- 🏢 Greenhouse
-- 🔍 Indeed  
-- 💼 LinkedIn
-- 📌 ZipRecruiter
+Don't worry if it doesn't work perfectly! We care about how you solve problems.
 
-## ⏱️ Timeline
-**48 hours** from receiving access to resources
+## 🌟 Pick One Website
+- [ ] Greenhouse  
+- [ ] Indeed
+- [ ] LinkedIn
+- [ ] ZipRecruiter
 
-## ✅ Requirements
+## ⏰ Time You Have
+48 hours after you start
 
-### Core Objectives
-- ✅ No hardcoded credentials (use environment variables/secure input)
-- ✅ Screenshot documentation for each major step
-- ✅ Functional job search implementation
-- ✅ Application submission attempt
-- ✅ Clear failure handling
+## ✅ What You Need To Do
 
-### Technical Implementation
-- Use any programming language/tools
-- Demonstrate:
-  - Secure authentication
-  - Search parameterization
-  - Application logic
-  - Error recovery
+### Must Haves:
+- [ ] Don't put passwords in the code (use environment variables)
+- [ ] Take screenshots as you go (working or not)
+- [ ] Try to apply to at least 1 job
+- [ ] Write about what worked and what didn't
 
-## 📝 Submission Deliverables
+### Nice To Haves:
+- [ ] Error handling
+- [ ] Simple instructions to run your code
+- [ ] Notes about problems you faced
 
-1. **Source code** (committed to repository)
-2. `/screenshots` directory containing:
-   - Authentication process
-   - Search results
-   - Application attempts
-   - Error states
-3. Comprehensive `README.md` (using this template)
+## 📦 What To Send Us
+1. Your code files
+2. A folder called "screenshots" with pictures of:
+   - Logging in
+   - Searching jobs
+   - Trying to apply
+3. This README file filled out
 
-## 🔍 Evaluation Criteria
-
-| Category          | Weight |
-|-------------------|--------|
-| Technical Approach | 40%    |
-| Documentation      | 30%    |
-| Problem Solving    | 20%    |
-| Time Management    | 10%    |
-
-## 🛠️ Implementation Guide
-
-### Recommended Stack
-```markdown
-- Language: Python/JavaScript/Java
-- Tools: Selenium/Playwright/Puppeteer
-- Libraries: BeautifulSoup, Requests
-- Storage: JSON/CSV for job data
+## 📝 How To Fill Out This README
