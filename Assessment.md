@@ -36,6 +36,3 @@ Don't worry if it doesn't work perfectly! We care about how you solve problems.
    - Logging in
    - Searching jobs
    - Trying to apply
-3. This README file filled out
-
-## 📝 How To Fill Out This README
