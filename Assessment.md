@@ -1,7 +1,7 @@
 # Job Platform Automation Challenge
 
 ## Challenge Overview
-Develop an automated solution to interact with one major job board platform. It scrape job from  any of the board you select below and also apply to at least 5 jobs on that board. This exercise evaluates your technical approach, problem-solving methodology, and documentation skills - not the ultimate success/failure of the implementation.
+Develop an automated solution to interact with one major job board platform. It scrape jobs from  any of the board you select below and also apply to at least 5 jobs on that board. This exercise evaluates your technical approach, problem-solving methodology, and documentation skills - not the ultimate success/failure of the implementation.
 
 ## Platform Options
 Choose **one** platform to target:
